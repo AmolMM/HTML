@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="main.py" method="get">
+        <div>
+            <label form="na">Name:*</label>
+            <input type="text" id="na" name="nam" required minlength="5" value="Name" readonly>
+            
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:*</label>
+            <input type="number" id="age" name="ag" required min="18" max="50">
+        </div><br>
+        <div>
+            <label for="dis">disablities</label>
+            <input type="text" name="x" value="y" disabled>
+        </div>
+        <div>
+            <label for="num">Phone Number</label>
+            <!-- <input type="text" name="" id="" value="+91"> -->
+            <select name="numprefix" id="">
+                <option value="+91">+91</option>
+            </select>
+            <input type="text" name="" id="">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <p>All * symbols are required</p>
+</body>
+</html>
