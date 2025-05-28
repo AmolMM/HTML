@@ -1,0 +1,16 @@
+  
+  /* css by usig tag */
+  h2
+        {
+            background-color: rgb(119, 119, 5);
+        }
+        /* css by usig class */
+  .chitti{
+background-color: pink;
+}
+/* css by using id */
+#bujji{
+background-color: red;
+}
+
+/* Today task Take your faviourait web page(eg.nykaa.com) Change the colors */
